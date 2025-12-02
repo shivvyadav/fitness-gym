@@ -10,7 +10,7 @@ type Props = {
 
 const ContactUs = ({ setSelectedPage }: Props) => {
   const inputStyles = `mb-5 w-full rounded-lg bg-primary-300
-  px-5 py-3 placeholder-white`;
+  px-5 py-3 placeholder-white outline-none`;
 
   const {
     register,
@@ -46,9 +46,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Stop waiting for tomorrow. Your fitness journey starts the moment
+            you walk through our doors. Don't let your goals remain just
+            goals—take the decisive step today and transform your health, your
+            body, and your confidence.
           </p>
         </motion.div>
 
