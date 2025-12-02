@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      " our facility is designed with cutting-edge equipment, comfort, and space in mind, ensuring your workout is as effective.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Boredom is the enemy of progress. That’s why we offer a weekly schedule packed with over 100 classes to keep you moving.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "The most valuable equipment in our gym is our staff. Our team of certified, professional trainers is here  to guide you.",
   },
 ];
 
@@ -131,18 +131,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                More than a gym, we are a powerful, supportive community. Every
+                day, millions of members trust us to help them achieve their
+                fitness dreams, leading to real results and countless success
+                stories. You're not just joining a facility; you're joining a
+                movement!
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Our structured programs, expert coaching, and supportive
+                environment have helped countless people reach their weight
+                loss, strength, and wellness goals. Our gym is a positive space
+                free of judgment. From our staff to your fellow members, you'll
+                find encouragement and high fives around every corner.
               </p>
             </motion.div>
 
