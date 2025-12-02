@@ -1,9 +1,10 @@
 import { SelectedPage, ClassType } from "@/shared/types";
-import image1 from "@/assets/image1.png";
+// import image1 from "@/assets/image1.png";
+import image1 from "@/assets/image1.jpg";
 import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
+import image3 from "@/assets/image3.jpg";
 import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
+import image5 from "@/assets/image5.jpg";
 import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
@@ -13,7 +14,7 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Stop guessing and start lifting with purpose! Our dedicated Weight Training Classes are designed to demystify the iron, build functional strength, and ensure you are performing every lift safely and effectively.",
     image: image1,
   },
   {
@@ -23,13 +24,13 @@ const classes: Array<ClassType> = [
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A strong core is the foundation of all fitness. Our specialized Ab & Core Classes go far beyond basic crunches to build functional strength, improve posture, enhance stability, and sculpt your midsection.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Break free from the mundane and train for life! Our Adventure Classes are designed to build the endurance, functional strength, and mental toughness required for real-world challenges—from hiking mountain trails to dominating obstacle courses.",
     image: image4,
   },
   {
@@ -39,7 +40,7 @@ const classes: Array<ClassType> = [
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Every class, from our high-intensity intervals to our foundational strength sessions, follows a professionally designed, progressive curriculum. You'll never plateau when you train with purpose.",
     image: image6,
   },
 ];
@@ -68,10 +69,11 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              With a calendar packed with over 100 weekly sessions, our classes
+              are the heart of the community and the engine of your progress.
+              From high-intensity training to restorative yoga, we offer
+              professionally led classes that cater to every goal, fitness
+              level, and mood.
             </p>
           </div>
         </motion.div>
